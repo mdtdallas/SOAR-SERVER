@@ -265,7 +265,7 @@ router.put("/users/update", (req, res) => {
 router.post("/users/login", (req, res) => {
   // //console.log(req.boy)
   let login = req.body;
-  //console.log(login);
+  console.log(login);
 
   userModel
     .getUserByEmail(login.email)
