@@ -17,7 +17,7 @@ const corsOptions = {
   optionsSuccessStatus: 200, // some legacy browser (IE11, various smartTvs) choke on 204
 };
 
-server.use(cors({origin: "http://localhost:3000"}));
+server.use(cors({origin: "*"}));
 
 // use the express-static middleware
 server.use(express.static("public"));
