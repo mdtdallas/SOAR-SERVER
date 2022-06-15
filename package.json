@@ -1,5 +1,5 @@
 {
-  "name": "web-applications-structure",
+  "name": "soar-server",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
