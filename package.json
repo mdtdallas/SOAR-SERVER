@@ -1,0 +1,31 @@
+{
+  "name": "web-applications-structure",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-access-token": "^1.1.6",
+    "express-fileupload": "^1.2.1",
+    "express-jwt": "^7.7.5",
+    "express-rate-limit": "^6.3.0",
+    "express-session": "^1.17.2",
+    "express-slow-down": "^1.4.0",
+    "express-validator": "^6.14.1",
+    "exrpess": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.16",
+    "validation": "0.0.1",
+    "validator": "^13.7.0"
+  },
+  "description": ""
+}
